@@ -1,0 +1,19 @@
+/* $spacing-lg = 16px; */
+
+.lang-container {
+	display: flex;
+  align-items: center;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+.lang-container.divider {
+  border-bottom: 1px solid #eaeaea;
+}
+
+.lang-item {
+	padding-left: 16px;
+}
+
+.lang-flag {
+	width: 32px;
+}

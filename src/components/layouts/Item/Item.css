@@ -1,0 +1,40 @@
+:host {
+  width: 32%;
+  margin-bottom: 2mm;
+  float: left;
+  display: flex;
+}
+
+#icon {
+  float: left;
+  width: 8mm;
+  height: 8mm;
+  background-repeat: no-repeat;
+  background-size: contain;
+  box-sizing: border-box;
+  border-radius: 1mm;
+  display: inline-block;
+  margin-right: 1mm;
+}
+
+#content {
+  flex: 1;
+  height: 8mm;
+  vertical-align: top;
+  display: inline-block;
+  font-size: inherit;
+}
+
+#title {
+  font-weight: bold;
+}
+
+#text {
+  font-style: italic;
+  font-size: inherit;
+}
+
+#text-container {
+  padding-right: 1mm;
+  font-size: inherit;
+}

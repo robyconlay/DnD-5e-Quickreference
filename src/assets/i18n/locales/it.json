@@ -1,0 +1,25 @@
+{
+  "GENERAL": {
+    "SHOW-HIDE-PASSWORD": "Mostra/nascondi password",
+    "HOME": "Home",
+    "CANCEL": "Annulla",
+    "CLOSE": "Chiudi",
+    "ADD": "Aggiungi",
+    "SAVE": "Salva",
+    "EDIT": "Modifica",
+    "COPY": "Copia",
+    "CLONE": "Clona",
+    "DELETE": "Elimina",
+    "CONFIRM": "Conferma",
+    "CONFIRM-MESSAGE": "Confermi l'azione?",
+    "DOWNLOAD": "Scarica",
+    "WARNING": "Attenzione",
+    "PROFILE": "Profilo",
+    "LOADING": "Caricamento",
+    "DETAILS": "Dettagli"
+  },
+  "LANGUAGE-CHOOSER": {
+    "CHANGE-LANGUAGE": "Cambia lingua",
+    "CHOOSE-LANGUAGE": "Scegli lingua"
+  }
+}

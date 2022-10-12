@@ -1,0 +1,24 @@
+{
+  "GENERAL": {
+    "HOME": "Home",
+    "CANCEL": "Cancel",
+    "CLOSE": "Close",
+    "ADD": "Add",
+    "SAVE": "Save",
+    "EDIT": "Edit",
+    "COPY": "Copy",
+    "CLONE": "Clone",
+    "DELETE": "Delete",
+    "CONFIRM": "Confirm",
+    "CONFIRM-MESSAGE": "Do you confirm the action?",
+    "DOWNLOAD": "Download",
+    "WARNING": "Warning",
+    "PROFILE": "Profile",
+    "LOADING": "Loading",
+    "DETAILS": "Details"
+  },
+  "LANGUAGE-CHOOSER": {
+    "CHANGE-LANGUAGE": "Change language",
+    "CHOOSE-LANGUAGE": "Choose language"
+  }
+}

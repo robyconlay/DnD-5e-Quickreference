@@ -1,25 +1,25 @@
-import React from 'react';
-import logo from './logo.svg';
+import { Navbar } from 'react-bootstrap';
+
+import Homepage from '@views/Homepage';
+import { LanguageChooserModal } from '@components/modals';
+import { LanguageChooser } from '@components/layouts';
+
 import './App.css';
 
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      {/* <Navbar bg="light" >
+        <Navbar.Brand href="/">Quickref</Navbar.Brand>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <div className='float-end'>
+          <LanguageChooser />
+        </div>
+      </Navbar> */}
+      <Homepage />
+      <LanguageChooserModal />
+    </>
   );
 }
 
