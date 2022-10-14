@@ -1,4 +1,4 @@
-const data_action = [
+const en_data_action = [
     {
         title: "Attack",
         icon: "crossed-swords",
@@ -198,4 +198,4 @@ const data_action = [
     }
 ]
 
-export default data_action;
+export default en_data_action;

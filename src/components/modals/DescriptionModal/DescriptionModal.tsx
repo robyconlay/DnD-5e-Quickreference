@@ -1,17 +1,18 @@
 import Modal from 'react-bootstrap/Modal';
 import { useDispatch, useSelector } from 'react-redux';
 
-import { closeModal } from '@store/reducers/descriptionModal.slice';
 import { RootState } from '@store/store';
 
 export function DescriptionModal() {
   const dispatch = useDispatch();
 
-  const visible = useSelector((state: RootState) => state.descriptionModal.visible)
-  const data = useSelector((state: RootState) => state.descriptionModal.data)
+  const visible = useSelector((state: RootState) => state.descriptionModal.visible);
+  const data = useSelector((state: RootState) => state.descriptionModal.data);
+
+  const handleHide = () => dispatch({ type: 'descriptionModal/closeModal' });
 
   return (
-    <Modal show={visible} onHide={() => dispatch(closeModal())} size='lg'>
+    <Modal show={visible} onHide={handleHide} size='lg'>
       <Modal.Header closeButton>
         <Modal.Title>{data.title}</Modal.Title>
       </Modal.Header>
@@ -28,7 +29,7 @@ export function DescriptionModal() {
                   <p className="fonstsize" dangerouslySetInnerHTML={{ __html: bullet }}></p>
                   {(index !== data.bullets.length - 1) && <hr></hr>}
                 </div>)
-                //TODO check
+              //TODO check
             }
           </div>
         </div>

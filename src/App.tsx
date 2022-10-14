@@ -7,16 +7,17 @@ import { LanguageChooser } from '@components/layouts';
 import './App.css';
 
 function App() {
+  const title = 'Quickref';
 
   return (
     <>
-      {/* <Navbar bg="light" >
-        <Navbar.Brand href="/">Quickref</Navbar.Brand>
+      <Navbar bg="light" >
+        <Navbar.Brand href="/">{title}</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <div className='float-end'>
           <LanguageChooser />
         </div>
-      </Navbar> */}
+      </Navbar>
       <Homepage />
       <LanguageChooserModal />
     </>

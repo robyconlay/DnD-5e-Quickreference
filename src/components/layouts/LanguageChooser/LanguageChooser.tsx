@@ -1,7 +1,5 @@
 import { useDispatch } from "react-redux";
 
-import { openModal } from "@store/reducers/languageChooserModal.slice";
-
 import './LanguageChooser.css'
 
 
@@ -10,7 +8,7 @@ export default function LanguageChooser() {
 
   const dispatch = useDispatch();
 
-  const handleClick = () => dispatch(openModal())
+  const handleClick = () => dispatch({ type: 'languageChooserModal/openModal' })
 
   return (
     <div>

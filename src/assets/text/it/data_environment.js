@@ -1,4 +1,4 @@
-data_environment_obscurance = [
+const it_data_environment = [
     {
         title: "Lightly obscured",
         icon: "bleeding-eye",
@@ -18,10 +18,7 @@ data_environment_obscurance = [
         bullets: [
             "A creature in a heavily obscured area effectively suffers from the <b>blinded condition</b>."
         ]
-    }
-]
-
-data_environment_light = [
+    },
     {
         title: "Bright light",
         icon: "star-pupil",
@@ -54,10 +51,7 @@ data_environment_light = [
             "Creates a <b>heavily obscured</b> area.",
             "Characters face darkness outdoors at night (even most moonlit nights), within the confines of an unlit dungeon or a subterranean vault, or in an area of magical darkness."
         ]
-    }
-]
-
-data_environment_vision = [
+    },
     {
         title: "Blindsight",
         icon: "one-eyed",
@@ -90,10 +84,7 @@ data_environment_vision = [
             "A creature with truesight can, out to a specific range, see in normal and magical darkness, see invisible creatures and objects, automatically detect visual illusions and succeed on saving throws against them, and perceives the original form of a shapechanger or a creature that is transformed by magic.",
             "Furthermore, the creature can see into the Ethereal Plane."
         ]
-    }
-]
-
-data_environment_cover = [
+    },
     {
         title: "Half cover",
         icon: "broken-shield",
@@ -130,3 +121,5 @@ data_environment_cover = [
         ]
     }
 ]
+
+export default it_data_environment;

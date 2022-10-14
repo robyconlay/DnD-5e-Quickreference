@@ -1,9 +1,9 @@
-data_movement = [
+const it_data_movement = [
     {
-        title: "Move",
+        title: "Muoversi",
         icon: "run",
-        subtitle: "Cost: 5ft per 5ft",
-        description: "Movement cost: 5ft per 5ft moved",
+        subtitle: "Costo: 1,5m per 1,5m",
+        description: "Costo movimento: 1,5m per 1,5m percorsi",
         reference: "PHB, pg. 190.",
         bullets: [
             "If you have more than one speed, such as your walking speed and a flying speed, you can switch back and forth between your speeds during your move. Whenever you switch, subtract the distance you've already moved from the new speed.",
@@ -122,3 +122,5 @@ data_movement = [
         ]
     }
 ]
+
+export default it_data_movement;

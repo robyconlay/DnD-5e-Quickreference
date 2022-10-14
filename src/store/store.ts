@@ -3,6 +3,7 @@ import descriptionModalReducer from './reducers/descriptionModal.slice'
 import languageChooserModalReducer from './reducers/languageChooserModal.slice'
 
 export const store = configureStore({
+  devTools: true,
   reducer: {
     descriptionModal: descriptionModalReducer,
     languageChooserModal: languageChooserModalReducer,

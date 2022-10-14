@@ -1,4 +1,4 @@
-const data_condition = [
+const en_data_condition = [
     {
         title: "Blinded",
         icon: "one-eyed",
@@ -199,4 +199,4 @@ const data_condition = [
     }
 ]
 
-export default data_condition;
+export default en_data_condition;

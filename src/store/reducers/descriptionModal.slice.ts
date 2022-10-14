@@ -21,7 +21,6 @@ const initialState: DescriptionModalState = {
 
 export const descriptionModalSlice = createSlice({
   name: 'descriptionModal',
-  // `createSlice` will infer the state type from the `initialState` argument
   initialState,
   reducers: {
     openModal: (state, action: PayloadAction<ItemData>) => {
@@ -36,8 +35,5 @@ export const descriptionModalSlice = createSlice({
 })
 
 export const { openModal, closeModal } = descriptionModalSlice.actions
-
-// Other code such as selectors can use the imported `RootState` type
-export const selectShow = (state: RootState) => state.descriptionModal.visible
 
 export default descriptionModalSlice.reducer

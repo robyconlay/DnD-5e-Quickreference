@@ -1,4 +1,4 @@
-data_reaction = [
+const it_data_reaction = [
     {
         title: "Opportunity attack",
         icon: "crossed-swords",
@@ -34,3 +34,5 @@ data_reaction = [
         ]
     }
 ]
+
+export default it_data_reaction;

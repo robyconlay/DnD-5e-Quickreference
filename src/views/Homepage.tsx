@@ -1,14 +1,15 @@
 import { DescriptionModal } from '@components/modals';
 import { Section } from '@components/layouts';
-import data_action from '@assets/text/en/data_action';
-import data_bonusaction from '@assets/text/en/data_bonusaction';
-import data_movement from '@assets/text/en/data_movement';
-import data_condition from '@assets/text/en/data_condition';
-import data_reaction from '@assets/text/en/data_reaction';
+// import it_data_action from '@assets/text/it/data_action';
 import { SectionData } from '@interfaces/SectionData';
-import { data_environment } from '@assets/text/en/data_environment';
+import {
+  en_data_action, en_data_bonusaction, en_data_condition, en_data_environment, en_data_movement, en_data_reaction,
+  it_data_action, it_data_bonusaction, it_data_condition, it_data_environment, it_data_movement, it_data_reaction,
+} from '@assets/text'
 
 import './Homepage.css';
+import { useTranslation } from 'react-i18next';
+import i18next from 'i18next';
 
 const MOVEMENT: SectionData = {
   sectionTitle: "Movement",
@@ -48,16 +49,18 @@ const ENVIRONMENT: SectionData = {
 }
 
 export default function Homepage() {
+  console.log(i18next.language)
+
   return (
     <div>
       <div className="page-background">
         <div className="page fontsize" data-size="fullscreen">
-          <Section properties={MOVEMENT} content={data_movement} />
-          <Section properties={ACTION} content={data_action} />
-          <Section properties={BONUSACTION} content={data_bonusaction} />
-          <Section properties={REACTION} content={data_reaction} />
-          <Section properties={CONDITION} content={data_condition} />
-          <Section properties={ENVIRONMENT} content={data_environment} />
+          <Section properties={MOVEMENT} content={i18next.language === 'en' ? en_data_movement : it_data_movement} />
+          <Section properties={ACTION} content={en_data_action} />
+          <Section properties={BONUSACTION} content={en_data_bonusaction} />
+          <Section properties={REACTION} content={en_data_reaction} />
+          <Section properties={CONDITION} content={en_data_condition} />
+          <Section properties={ENVIRONMENT} content={en_data_environment} />
         </div>
       </div>
       <DescriptionModal />

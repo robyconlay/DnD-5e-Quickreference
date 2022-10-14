@@ -1,4 +1,4 @@
-data_bonusaction = [
+const it_data_bonusaction = [
     {
         title: "Offhand Attack",
         icon: "crossed-swords",
@@ -34,3 +34,5 @@ data_bonusaction = [
         ]
     }
 ]
+
+export default it_data_bonusaction;

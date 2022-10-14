@@ -1,9 +1,9 @@
-data_action = [
+const it_data_action = [
     {
-        title: "Attacco",
+        title: "Attack",
         icon: "crossed-swords",
-        subtitle: "Attacco in mischia o a distanza",
-        description: "Effettua un attacco in mischia o a distanza con la tua arma",
+        subtitle: "Melee or ranged attack",
+        description: "Perform a melee or ranged attack with your weapon",
         reference: "PHB, pgs. 192,194-195.",
         bullets: [
             "Certain features, such as the <i>Extra Attack</i> feature of the fighter, allow you to make more than one attack with this action. Each of these attacks is a separate roll and may target different creatures. You may move in between these attacks.",
@@ -12,10 +12,6 @@ data_action = [
             "Some conditions give advantage on the attack: attacks against blinded, paralyzed, petrified, restrained, stunned, or unconscious targets; melee attacks against prone targets; attacks by invisible or hidden attackers.",
             "Some conditions give disadvantage on the attack: attacks against invisible or hidden targets; ranged attacks against prone targets; attacks by blinded, frightened, poisoned, or restrained attackers."
         ]
-        // bullets: [
-        //     "Alcuni talenti, come il talento <i>Attacco Extra</i> del guerriero, permettono di effettuare piu' di un attacco con questa azione. Ognuno di questi attacchi richiede una tiro per colpire separato e puo' puntare creature diverse. E' possibile muoversi tra questi attacchi.",
-        //     "Quando effettui un attacco con un'arma leggera, puoi usare un'azione bonus per attaccare con l'altra mano (vedi l'azione bonus <i>Attacco "
-        // ]
     },
     {
         title: "Grapple",
@@ -201,3 +197,5 @@ data_action = [
         ]
     }
 ]
+
+export default it_data_action;

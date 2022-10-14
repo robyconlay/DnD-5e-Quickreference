@@ -1,22 +1,25 @@
-import { closeModal, selectLanguage } from "@store/reducers/languageChooserModal.slice";
-import { RootState } from "@store/store";
-import { languages } from "@utils/locales";
 import { Button, Modal } from "react-bootstrap";
 import { useTranslation } from "react-i18next";
 import { useDispatch, useSelector } from "react-redux";
+
+import { RootState } from "@store/store";
+import { languages } from "@utils/locales";
 import './LanguageChooserModal.css'
 
 
 export default function LanguageChooserModal() {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
   const dispatch = useDispatch();
 
   const visible = useSelector((state: RootState) => state.languageChooserModal.visible)
 
   const languageOptions = languages;
 
-  const handleClose = () => dispatch(closeModal());
-  const handleSelect = (lang: string) => dispatch(selectLanguage(lang));
+  const handleClose = () => dispatch({ type: 'languageChooserModal/closeModal' });
+  const handleSelect = (locale: string) => {
+    dispatch({ type: 'languageChooserModal/selectLanguage', payload: locale });
+    i18n.changeLanguage(locale);
+  }
 
   return (
     <Modal show={visible} onHide={handleClose} size='sm'>
@@ -31,7 +34,7 @@ export default function LanguageChooserModal() {
           {
             languageOptions.map(lang =>
               <div className="lang-container pointer" onClick={() => handleSelect(lang.locale)} key={lang.locale}>
-                <img className="lang-flag" src={`assets/images/${lang.locale}.png`} alt={lang.locale}></img>
+                <img className="lang-flag" src={lang.image} alt={lang.locale}></img>
                 <div className="lang-item">{lang.label}</div>
               </div>
             )

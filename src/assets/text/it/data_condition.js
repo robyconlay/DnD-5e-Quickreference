@@ -1,4 +1,4 @@
-data_condition = [
+const it_data_condition = [
     {
         title: "Blinded",
         icon: "one-eyed",
@@ -198,3 +198,5 @@ data_condition = [
         ]
     }
 ]
+
+export default it_data_condition;

@@ -1,4 +1,4 @@
-const data_movement = [
+const en_data_movement = [
     {
         title: "Move",
         icon: "run",
@@ -123,4 +123,4 @@ const data_movement = [
     }
 ]
 
-export default data_movement;
+export default en_data_movement;

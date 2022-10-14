@@ -1,4 +1,4 @@
-const data_environment = [
+const en_data_environment = [
     {
         title: "Lightly obscured",
         icon: "bleeding-eye",
@@ -122,4 +122,4 @@ const data_environment = [
     }
 ]
 
-export { data_environment };
+export default en_data_environment;
