@@ -21,5 +21,43 @@
   "LANGUAGE-CHOOSER": {
     "CHANGE-LANGUAGE": "Cambia lingua",
     "CHOOSE-LANGUAGE": "Scegli lingua"
+  },
+  "CONTENT-SECTIONS": {
+    "MOVEMENT": {
+      "SECTION-TITLE": "Movimento",
+      "SECTION-ID": "movement",
+      "SECTION-LIMIT": "limitato da velocita' di movimento",
+      "SECTION-SUBTITLE": "Puoi muoverti in qualsiasi momento del tuo turno (prima, dopo o durante azioni)."
+    },
+    "ACTION": {
+      "SECTION-TITLE": "Action",
+      "SECTION-ID": "action",
+      "SECTION-LIMIT": "1/Turn",
+      "SECTION-SUBTITLE": "You can also interact with one object or feature of the environment for free."
+    },
+    "BONUSACTION": {
+      "SECTION-TITLE": "Bonus action",
+      "SECTION-ID": "bonus-action",
+      "SECTION-LIMIT": "max. 1/turn",
+      "SECTION-SUBTITLE": "You can take a bonus action only when a special ability, spell, or feature states that you can do something as a bonus action."
+    },
+    "REACTION": {
+      "SECTION-TITLE": "Reaction",
+      "SECTION-ID": "reaction",
+      "SECTION-LIMIT": "max. 1/round",
+      "SECTION-SUBTITLE": "A reaction is an instant response to a trigger of some kind, which can occur on your turn or on someone else's."
+    },
+    "CONDITION": {
+      "SECTION-TITLE": "Condition",
+      "SECTION-ID": "condition",
+      "SECTION-LIMIT": "",
+      "SECTION-SUBTITLE": "Conditions alter your capabilities in a variety of ways, and can arise as a result of a spell, a class feature, a monster's attack, or other effect."
+    },
+    "ENVIRONMENT": {
+      "SECTION-TITLE": "Environmental Effects",
+      "SECTION-ID": "environment",
+      "SECTION-LIMIT": "",
+      "SECTION-SUBTITLE": ""
+    }
   }
 }

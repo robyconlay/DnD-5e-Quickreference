@@ -7,8 +7,6 @@ export interface Language {
   default: boolean;
   localizedFormGroupName: string;
   image: string;
-  // devExtremeMessages: any;
-  // angularLocaleMessages: any;
 }
 
 export const languages: Readonly<Language[]> = [
@@ -16,8 +14,6 @@ export const languages: Readonly<Language[]> = [
     locale: 'it',
     label: 'Italiano',
     localizedFormGroupName: 'italianLocalization',
-    // angularLocaleMessages: localeIt,
-    // devExtremeMessages: dxItMessages,
     default: false,
     image: it_flag
   },
@@ -25,8 +21,6 @@ export const languages: Readonly<Language[]> = [
     locale: 'en',
     label: 'English',
     localizedFormGroupName: 'englishLocalization',
-    // angularLocaleMessages: localeEn,
-    // devExtremeMessages: dxEnMessages,
     default: true,
     image: en_flag
   },

@@ -1,0 +1,1 @@
+`rename.ts` was used to replace all occurences of `-` to `_` in image names

@@ -1,3 +1,21 @@
+// import crossed_swords from 'src/assets/img/crossed_swords.png'
+// import grab from 'src/assets/img/grab.png'
+// import hand from 'src/assets/img/hand.png'
+// import magic_swirl from 'src/assets/img/magic_swirl.png'
+// import sprint from 'src/assets/img/sprint.png'
+// import journey from 'src/assets/img/journey.png'
+// import aura from 'src/assets/img/aura.png'
+// import manacles from 'src/assets/img/manacles.png'
+// import telepathy from 'src/assets/img/telepathy.png'
+// import snatch from 'src/assets/img/snatch.png'
+// import round_shield from 'src/assets/img/round_shield.png'
+// import hood from 'src/assets/img/hood.png'
+// import magnifying_glass from 'src/assets/img/magnifying_glass.png'
+// import stopwatch from 'src/assets/img/stopwatch.png'
+// import embrassed_energy from 'src/assets/img/embrassed_energy.png'
+// import first_aid from 'src/assets/img/first_aid.png'
+// import juggler from 'src/assets/img/juggler.png'
+
 const en_data_action = [
     {
         title: "Attack",
