@@ -1,6 +1,6 @@
-import { useAppDispatch } from '@utils/hooks';
-import { ItemData } from '@interfaces/ItemData';
+import { useDispatch } from 'react-redux';
 
+import { ItemData } from '@interfaces/ItemData';
 import './Item.css'
 
 interface ItemProps {
@@ -8,7 +8,7 @@ interface ItemProps {
 }
 
 export default function Item(props: ItemProps) {
-  const dispatch = useAppDispatch()
+  const dispatch = useDispatch()
 
   const handleClick = () => dispatch({ type: 'descriptionModal/openModal', payload: props.item })
 

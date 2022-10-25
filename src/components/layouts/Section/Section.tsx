@@ -2,6 +2,8 @@ import { Item } from "@components/layouts";
 import { ItemData } from "@interfaces/ItemData";
 import { SectionData } from "@interfaces/SectionData";
 
+import './Section.scss'
+
 export interface SectionProps {
   properties: SectionData;
   content: ItemData[];

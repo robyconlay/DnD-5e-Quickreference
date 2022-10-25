@@ -1,40 +1,43 @@
-:host {
-  width: 32%;
-  margin-bottom: 2mm;
+.item {
+  margin-bottom: 8px;
   float: left;
   display: flex;
+  font-size: inherit;
+  vertical-align: top;
+  box-sizing: border-box;
+  cursor: pointer;
 }
 
-#icon {
+.item-icon {
   float: left;
-  width: 8mm;
-  height: 8mm;
+  flex: 0 0 auto;
   background-repeat: no-repeat;
   background-size: contain;
   box-sizing: border-box;
-  border-radius: 1mm;
+  border-radius: 4px;
   display: inline-block;
-  margin-right: 1mm;
+  margin-right: 4px;
 }
 
-#content {
-  flex: 1;
-  height: 8mm;
-  vertical-align: top;
-  display: inline-block;
-  font-size: inherit;
-}
-
-#title {
+.item-title {
   font-weight: bold;
+  font-size: inherit;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
-#text {
+.item-desc {
   font-style: italic;
   font-size: inherit;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
-#text-container {
-  padding-right: 1mm;
+.item-text-container {
+  flex: 1;
+  padding-right: 4px;
   font-size: inherit;
+  height: 100%;
 }

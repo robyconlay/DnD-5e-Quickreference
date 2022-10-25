@@ -1,0 +1,117 @@
+
+.section-container {
+  border: 8px solid;
+  border-radius: 8px;
+  box-sizing: border-box;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  /*font-family: Arial;*/
+  font-family: 'Noto Sans', 'Myriad Pro', Calibri, Helvetica, Arial, sans-serif;
+  width:100%;
+  margin-bottom:8px;
+  page-break-inside: avoid;
+}
+
+.section-content {
+  padding:8px;
+  padding-bottom: 0;
+  border-radius: 8px;
+  margin-top: 0;
+  background-color: white;
+  border-color: inherit;
+  font-size: inherit;
+}
+
+.section-title {
+  height: 32px;
+  padding-left: 8px;
+  padding-right: 8px;
+  font-family: Lora, 'Calisto MT', 'Bookman Old Style', Bookman, 'Goudy Old Style', Garamond, 'Hoefler Text', 'Bitstream Charter', Georgia, serif;
+  font-variant: small-caps;
+  font-weight: bold;
+  background-color: inherit;
+  color: white;
+  font-size: 16pt;
+}
+
+.float-right {
+  float: right;
+}
+
+.section-subtitle, #modal-reference {
+  display: block;
+  margin-bottom: 8px;
+  font-size: inherit;
+  font-style: italic;
+}
+
+#modal-reference {
+  margin-top: 1em;
+}
+
+.section-row {
+  font-size: inherit;
+}
+
+.section-row:before, .section-row:after{
+  display: table;
+  content: " ";
+  clear: both;
+}
+
+.section-row + .section-subtitle {
+  margin-top: 1em;
+}
+
+
+/* ------------------------------------------------------------------------- */
+/* Colors */
+/* ------------------------------------------------------------------------- */
+#section-movement, #section-movement .item-icon {
+  background-color: maroon;
+  border-color: maroon;
+}
+#section-movement .text {
+  color: maroon;
+}
+
+#section-action, #section-action .item-icon {
+  background-color: black;
+  border-color: black;
+}
+#section-action .text {
+  color: black;
+}
+
+#section-bonus-action, #section-bonus-action .item-icon {
+  background-color: indigo;
+  border-color: indigo;
+}
+#section-bonus-action .text {
+  color: indigo;
+}
+
+#section-reaction, #section-reaction .item-icon {
+  background-color: DarkOliveGreen ;
+  border-color: DarkOliveGreen ;
+}
+#section-reaction .text {
+  color: DarkOliveGreen ;
+}
+
+#section-condition, #section-condition .item-icon {
+  background-color: FireBrick;
+  border-color: FireBrick;
+}
+#section-condition .text {
+  color: FireBrick;
+}
+
+#section-environment, #section-environment .item-icon {
+  background-color: ForestGreen;
+  border-color: ForestGreen;
+}
+#section-environment .text {
+  color: ForestGreen;
+}

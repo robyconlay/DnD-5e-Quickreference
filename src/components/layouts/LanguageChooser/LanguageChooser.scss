@@ -2,8 +2,8 @@
   opacity: 1;
   transition: .3s ease-in-out;
   width: 36px;
-}
 
-#lang-icon:hover {
-  opacity: .6;
+  &:hover {
+    opacity: .6;
+  }
 }

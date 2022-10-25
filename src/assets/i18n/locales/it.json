@@ -25,37 +25,31 @@
   "CONTENT-SECTIONS": {
     "MOVEMENT": {
       "SECTION-TITLE": "Movimento",
-      "SECTION-ID": "movement",
       "SECTION-LIMIT": "limitato da velocita' di movimento",
       "SECTION-SUBTITLE": "Puoi muoverti in qualsiasi momento del tuo turno (prima, dopo o durante azioni)."
     },
     "ACTION": {
-      "SECTION-TITLE": "Action",
-      "SECTION-ID": "action",
+      "SECTION-TITLE": "Azione",
       "SECTION-LIMIT": "1/Turn",
-      "SECTION-SUBTITLE": "You can also interact with one object or feature of the environment for free."
+      "SECTION-SUBTITLE": "È inoltre possibile interagire gratuitamente con un oggetto o una caratteristica dell'ambiente."
     },
-    "BONUSACTION": {
-      "SECTION-TITLE": "Bonus action",
-      "SECTION-ID": "bonus-action",
-      "SECTION-LIMIT": "max. 1/turn",
-      "SECTION-SUBTITLE": "You can take a bonus action only when a special ability, spell, or feature states that you can do something as a bonus action."
+    "BONUS-ACTION": {
+      "SECTION-TITLE": "Azione bonus",
+      "SECTION-LIMIT": "max. 1/turno",
+      "SECTION-SUBTITLE": "Si può compiere un'azione bonus solo quando un'abilità speciale, un incantesimo o una caratteristica indicano che si può fare qualcosa come azione bonus."
     },
     "REACTION": {
-      "SECTION-TITLE": "Reaction",
-      "SECTION-ID": "reaction",
+      "SECTION-TITLE": "Reazione",
       "SECTION-LIMIT": "max. 1/round",
-      "SECTION-SUBTITLE": "A reaction is an instant response to a trigger of some kind, which can occur on your turn or on someone else's."
+      "SECTION-SUBTITLE": "Una reazione è una risposta istantanea a un qualche tipo di innesco, che può avvenire al proprio turno o a quello di qualcun altro."
     },
     "CONDITION": {
-      "SECTION-TITLE": "Condition",
-      "SECTION-ID": "condition",
+      "SECTION-TITLE": "Condizione",
       "SECTION-LIMIT": "",
-      "SECTION-SUBTITLE": "Conditions alter your capabilities in a variety of ways, and can arise as a result of a spell, a class feature, a monster's attack, or other effect."
+      "SECTION-SUBTITLE": "Le condizioni alterano le capacità in vari modi e possono derivare da un incantesimo, da una caratteristica di classe, dall'attacco di un mostro o da un altro effetto."
     },
     "ENVIRONMENT": {
-      "SECTION-TITLE": "Environmental Effects",
-      "SECTION-ID": "environment",
+      "SECTION-TITLE": "Effetti Ambientali",
       "SECTION-LIMIT": "",
       "SECTION-SUBTITLE": ""
     }
