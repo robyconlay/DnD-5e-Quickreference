@@ -1,5 +1,4 @@
 import { createSlice, PayloadAction } from '@reduxjs/toolkit'
-import type { RootState } from '@store/store'
 import { ItemData } from '@interfaces/ItemData';
 
 interface DescriptionModalState {
