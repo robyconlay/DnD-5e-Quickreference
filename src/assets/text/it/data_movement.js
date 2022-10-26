@@ -38,7 +38,7 @@ const it_data_movement = [
         icon: "falling",
         subtitle: "Costo: 0m",
         description: "Costo movimento: 0m (gratis)",
-        reference: "PHB, pgs. 190-191,292.",
+        reference: "MdG, pgs. 190-191,292.",
         bullets: [
             "E possibile cadere in posizione prona senza utilizzare la velocita'",
             "Per muoversi in posizione prona, è necessario strisciare o usare una magia come il teletrasporto.",
@@ -50,7 +50,7 @@ const it_data_movement = [
         icon: "crawl",
         subtitle: "Costo: 3m per 1,5m",
         description: "Costo movimento: 3m per 1,5m strisciati",
-        reference: "PHB, pg. 182.",
+        reference: "MdG, pg. 182.",
         bullets: [
 
         ]
@@ -60,7 +60,7 @@ const it_data_movement = [
         icon: "strong",
         subtitle: "Costo: meta' della velocita di movimento",
         description: "Costo movimento: meta' della tua velocita'",
-        reference: "PHB, pg. 190-191.",
+        reference: "MdG, pg. 190-191.",
         bullets: [
             "Non e' possibile alzarsi se non si ha abbastanza movimento o se la velocità è pari a 0."
         ]
@@ -71,7 +71,7 @@ const it_data_movement = [
         subtitle: "Costo: 1,5m per 1,5m",
         description: "Costo movimento: 1,5m per 1,5m saltati",
         
-        reference: "PHB, pg. 182.",
+        reference: "MdG, pg. 182.",
         bullets: [
             "Si salta in aria per un numero di metri pari a <b>3 + il proprio modificatore di Forza</b> se ci si muove di almeno 3 metri a piedi immediatamente prima del salto",
             "Quando si effettua un salto in alto da fermi, si può saltare solo per metà della distanza",
@@ -84,7 +84,7 @@ const it_data_movement = [
         icon: "wingfoot",
         subtitle: "Costo: 1,5m per 1,5m",
         description: "Costo movimento: 1,5m per 1,5m saltati",
-        reference: "PHB, pg. 182.",
+        reference: "MdG, pg. 182.",
         bullets: [
             "Si percorre un numero di metri pari al proprio punteggio di <b>Forza</b> se ci si sposta di almeno 3 metri a piedi immediatamente prima del salto",
             "Quando si effettua un salto in lungo da fermi, si può saltare solo per metà della distanza",
@@ -105,7 +105,7 @@ const it_data_movement = [
         title: "Terreno difficile",
         icon: "stone-pile",
         subtitle: "Modificatore di costo: +1,5m per 1,5m",
-        reference: "PHB, pg. 182.",
+        reference: "MdG, pg. 182.",
         description: "Muoversi su terreni difficili costa 1,5 m in più per ogni 1,5 m di movimento.",
         bullets: [
         ]
@@ -115,7 +115,7 @@ const it_data_movement = [
         icon: "grab",
         subtitle: "Modificatore: velocita' dimezzata",
         description: "Trascinare o portare con sé la creatura afferrata",
-        reference: "PHB, pg. 195.",
+        reference: "MdG, pg. 195.",
         bullets: [
             "Se vi muovete mentre afferrate un'altra creatura, la vostra velocità è dimezzata, a meno che la creatura non sia di due o più taglie più piccola di voi",
             "Vedi l'azione di attacco per sapere come afferrare una creatura"

@@ -4,7 +4,7 @@ const it_data_reaction = [
         icon: "crossed-swords",
         subtitle: "Nemico esce dalla tua portata",
         description: "Raramente si riesce a passare con noncuranza davanti ai nemici senza mettersi in pericolo",
-        reference: "PHB, pg. 195.",
+        reference: "MdG, pg. 195.",
         bullets: [
             "Innesco: creatura nemica che puoi vedere esce dalla tua portata",
             "Effettua un attacco in mischia contro la creatura provocatrice",
@@ -17,7 +17,7 @@ const it_data_reaction = [
         icon: "stopwatch",
         subtitle: "Parte della tua azione di Prepararsi",
         description: "Eseguire la reazione specificata dall'azione di Preparasi.",
-        reference: "PHB, pg. 193.",
+        reference: "MdG, pg. 193.",
         bullets: [
             "Innesco: specificato dall'azione di <i>Prepararsi</i>"
         ]
@@ -27,7 +27,7 @@ const it_data_reaction = [
         icon: "magic-swirl",
         subtitle: "Tempo di lancio di 1 reazione",
         description: "Lanciare un incantesimo con tempo di lancio di 1 reazione",
-        reference: "PHB, pg. 192.",
+        reference: "MdG, pg. 192.",
         bullets: [
             "Innesco: specificato dall'incanteismo",
             "Per ulteriori dettagli, vedere l'azione <i>Lanciare un incantesimo</i>"

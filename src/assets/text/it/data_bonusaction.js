@@ -4,7 +4,7 @@ const it_data_bonusaction = [
         icon: "crossed-swords",
         subtitle: "Utilizzare con l'azione di Attacco",
         description: "Attaccare con l'altra mano'",
-        reference: "PHB, pgs. 192,194-195.",
+        reference: "MdG, pgs. 192,194-195.",
         bullets: [
             "Utilizzabile solo se si effettua l'azione <i>Attacco</i> e si attacca con un'arma da mischia leggera che si tiene in una mano",
             "Eseguire un singolo attacco con un'altra arma da mischia leggera che si tiene nell'altra mano",
@@ -15,9 +15,9 @@ const it_data_bonusaction = [
     {
         title: "Lanciare un incantesimo",
         icon: "magic-swirl",
-        subtitle: "Cast time of 1 bonus action",
-        description: "Tempo di lancio di 1 azione bonus",
-        reference: "PHB, pg. 192.",
+        subtitle: "Tempo di lancio di 1 azione bonus",
+        description: "Lanciare un incantesimo con tempo di lancio di 1 azione bonus",
+        reference: "MdG, pg. 192.",
         bullets: [
             "Non si può lanciare un incantesimo con la propria azione e un altro incantesimo con la propria azione bonus nello stesso turno, tranne se l'azione viene usata per lanciare un trucchetto.",
             "Per ulteriori dettagli, vedere l'azione <i>Lanciare un incantesimo</i>.."
